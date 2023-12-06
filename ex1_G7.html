@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grupo 7
+    </title>
+    <style> 
+    body{
+        background-color: hotpink;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h1{
+        color: white;
+    }
+
+    label{
+        color: white;
+    }
+    p#resul{
+        color: white;
+    }
+    </style>
+</head> 
+<body>
+    <h1> Média de alunos </h1>
+    <label> Nome do aluno(a): 
+    <input type="text" id="nomealuno">  
+    </label>
+    <br>    <br> 
+    <label> Nota 1°: 
+        <input type="number" id="nota1"> 
+    </label>
+    <br> <br> 
+    <label> Nota 2°:
+        <input type="number" id="nota2"> 
+    </label>
+<br> <br> 
+    <button onclick="mediaCalcular()">  Calcular média </button>
+
+    <p id="resul"> </p>
+
+    <script src="JS/ex1_G7.js"> </script>
+</body>
+</html>
